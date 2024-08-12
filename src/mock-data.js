@@ -1,71 +1,71 @@
 const mockData = {
     "status": "ok",
-    "totalResults": 33,
+    "totalResults": 19863,
     "articles": [
         {
             "source": {
-                "id": "google-news",
-                "name": "Google News"
+                "id": "wired",
+                "name": "Wired"
             },
-            "author": "The Washington Post",
-            "title": "Guest column | There’s a ticking time bomb in my head. I’m learning to live with it. - The Washington Post",
-            "description": null,
-            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaTJPc0VQX2hueWc1QWd6M2ZTaERuRTlneVF6WGlhUUNHWEVsVEtPeV95WV9KOUl6MWl5RnpoZmsyQWwyOVdXeVRfbEt5OF94b1NGbTlzaUdLZjNLa1RaRjlsX0JKQ2dGSC00cXBDa2FMNHBGNmNkMFhLUWRUX2hCOHpmZGVTS1hVLU1zazd3aw?oc=5",
-            "urlToImage": null,
-            "publishedAt": "2024-08-11T14:40:50Z",
-            "content": null
+            "author": "Dennis Mersereau",
+            "title": "Is the ‘Diaper’ Method in 'Twisters' a Real Solution For Massive Tornadoes? Not Exactly",
+            "description": "The ‘Twister’ sequel, which brought in over $80 billion at the box office this weekend, is full of good science. But its big reveal is full of spin.",
+            "url": "https://www.wired.com/story/is-twisters-diaper-method-a-real-solution-for-massive-tornadoes/",
+            "urlToImage": "https://media.wired.com/photos/66984861aa3eb0e4f25763c5/191:100/w_1280,c_limit/Twisters-Review-Culture.jpg",
+            "publishedAt": "2024-07-22T14:13:12Z",
+            "content": "OK, so the films twins are possible, but what about its flaming tornado? During one of Twisters climatic moments multiple fireballs fill the stormy skies as a violent tornado runs through an industri… [+2709 chars]"
         },
         {
             "source": {
-                "id": "google-news",
-                "name": "Google News"
+                "id": null,
+                "name": "BBC News"
             },
-            "author": "CNN",
-            "title": "Ukraine’s Zelensky finally confirms Kyiv’s troops incursion into Russian territory - CNN",
-            "description": null,
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdHdKTU04emVJc0hkazctT0lTblhacVhhQjhfRVZhV1JKM2VRbm5wNXJCV190VkNWWG1qVGppZDJYN2FTQ0U2Q01USGIzY1d4Sl9XamVWdHMxcS1iZVdYcS1GUHNLdXBfSFAta2R1Ry1CSnZoWWEyOG1ZZzU5SXhySjJINVVWX3YxRndDWnc4ZXJMTXkzZ0JCakJfbEc?oc=5",
-            "urlToImage": null,
-            "publishedAt": "2024-08-11T14:21:00Z",
-            "content": null
+            "author": null,
+            "title": "What does science tell us about boxing’s gender row?",
+            "description": "Research is shedding light on different chromosomal make-ups and what advantages they may bring to sport.",
+            "url": "https://www.bbc.com/news/articles/crlr8gp813ko",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7bfc/live/dc3fca20-5599-11ef-8f0f-0577398c3339.png",
+            "publishedAt": "2024-08-09T00:43:12Z",
+            "content": "Images of the Algerian boxer Imane Khelif and Taiwans Lin Yu-ting on the medal podium in Paris will go down as some of the most unforgettable of the 2024 Olympics.\r\nA frenzied debate has raged over t… [+11940 chars]"
         },
         {
             "source": {
-                "id": "google-news",
-                "name": "Google News"
+                "id": null,
+                "name": "BBC News"
             },
-            "author": "The Washington Post",
-            "title": "Trump campaign reckons with hack; Harris holds fundraiser in San Francisco - The Washington Post",
-            "description": null,
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNUJIWVd2V2FaMERxWmczU0l2Y2MxT3QzeW5DbDh0UHJrRE5fQzBILVNlQ1loTkpoelN3THRTY1dtejlkUVE0czBFNHQ5UXNITk14MkxFaW9OaHdFZjVSSW81bWhkQVF4SkZ0SkVoS0pxc1Rxek14cjhJMV9nZkFwTTloNElxX0xySk0xWU85R2NtR2FpYWZEQU1aTzc?oc=5",
-            "urlToImage": null,
-            "publishedAt": "2024-08-11T13:50:44Z",
-            "content": null
+            "author": null,
+            "title": "Why we might never know the truth about ultra-processed foods",
+            "description": "Experts can’t agree how exactly they affect us and it’s not clear that science will give us an answer.",
+            "url": "https://www.bbc.com/news/articles/cpe3pppw1z7o",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/fe2f/live/df511c90-4a87-11ef-b2d2-cdb23d5d7c5b.png",
+            "publishedAt": "2024-07-27T23:33:23Z",
+            "content": "They are the bête noire of many nutritionists - mass-produced yet moreish foods like chicken nuggets, packaged snacks, fizzy drinks, ice cream or even sliced brown bread.\r\nSo-called ultra-processed f… [+9706 chars]"
         },
         {
             "source": {
-                "id": "google-news",
-                "name": "Google News"
+                "id": null,
+                "name": "Hackaday"
             },
-            "author": "Radio Free Europe / Radio Liberty",
-            "title": "Serbian Environmental Protesters Block Trains - Radio Free Europe / Radio Liberty",
-            "description": null,
-            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE13Z0lUX0VfTnFjVGRUMGszMnZNLVZLTHlrTUxUQ0VDY1lpbFJQQ0FXZUowMjdDVC1QdjhXREpIcWlseDN4Y2tXeThMeEpPZ2M4bTJSR29uS0l1SV9IV3pHbDVHcEtyZHJyY2NwV2lxd9IBckFVX3lxTE43bGM3dHZfX08yR2IyRlhTXzFOWk40WXJ6ODQ0bFRGMEY1WjQyaUNodWlJTU1TRWM0Yk1vTzRaSUpsTHZfSnpXVHk5NTU2WHpaQy1aNkd6U3VGMjJ5Nmp3a2V2TEVkMWgyZFVGRG51RVM5dw?oc=5",
-            "urlToImage": null,
-            "publishedAt": "2024-08-11T13:20:10Z",
-            "content": null
+            "author": "Bryan Cockfield",
+            "title": "Better Battery Design Through Science",
+            "description": "Before the age of lithium batteries, any project needing to carry its own power had to rely on batteries that were much less energy-dense and affordable. In many ways, we take modern lithium techno…",
+            "url": "https://hackaday.com/2024/08/02/better-battery-design-through-science/",
+            "urlToImage": "https://hackaday.com/wp-content/uploads/2024/08/18650s.jpg",
+            "publishedAt": "2024-08-03T05:00:27Z",
+            "content": "Before the age of lithium batteries, any project needing to carry its own power had to rely on batteries that were much less energy-dense and affordable. In many ways, we take modern lithium technolo… [+1607 chars]"
         },
         {
             "source": {
-                "id": "google-news",
-                "name": "Google News"
+                "id": "business-insider",
+                "name": "Business Insider"
             },
-            "author": "CBS Sunday Morning",
-            "title": "President Biden on ending reelection bid, and defeating Trump - CBS Sunday Morning",
-            "description": null,
-            "url": "https://news.google.com/rss/articles/CCAiC3EzNGFXckVMWV9nmAEB?oc=5",
-            "urlToImage": null,
-            "publishedAt": "2024-08-11T13:16:46Z",
-            "content": null
+            "author": "Jenny McGrath",
+            "title": "The science you need to know before seeing 'Twisters'",
+            "description": "You don't need a degree in meteorology to understand \"Twisters,\" but if your tornado science is a little shaky, here are some terms that might help.",
+            "url": "https://www.businessinsider.com/twisters-tornado-science-terms-should-know-before-seeing-2024-7",
+            "urlToImage": "https://i.insider.com/669ab7a049138fa6f6e3fa9b?width=1200&format=jpeg",
+            "publishedAt": "2024-07-19T20:23:20Z",
+            "content": "The \"Twisters\" movie is full of references to tornado science.Universal Pictures, Warner Bros. Pictures & Amblin Entertainment\r\n<ul><li>'Twisters' aims to be more scientifically accurate than its pre… [+7289 chars]"
         }
     ]
 }

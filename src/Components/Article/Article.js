@@ -1,14 +1,18 @@
+import '../Article/Article.css'
 import { format } from 'date-fns'
 
 function Article({ article }) {
-    console.log("article in Article component:", article)
-    const formattedDate = format(new Date (article.publishedAt), 'MM-dd-yy')
 
     return (
         <div className="article">
-             <h2>{article.title}</h2>
-            <p><strong>Date:</strong> {formattedDate}</p>
-            <p><strong>Description:</strong> {article.description}</p>
+            <img
+                src={article.urlToImage}
+                alt={article.title}
+                className="article-image"
+            />
+            <h3 className="article-title">{article.title}</h3>
+            {article.description ? <p>{article.description}</p> : null}
+            <p className="article-date"><strong>Date: </strong>{format(new Date(article.publishedAt), 'MM-dd-yy')}</p>
         </div>
     )
 }

@@ -1,8 +1,9 @@
-import Article from "../Article/Article"
+import '../AllArticles/AllArticles.css'
+import Article from '../Article/Article'
 import { v4 as uuidv4 } from 'uuid'
 
 function AllArticles({ articles }) {
-    
+
     const allArticles = articles.map(article => {
         return (
             <Article
@@ -14,7 +15,6 @@ function AllArticles({ articles }) {
 
     return (
         <div className="articles-container">
-            <h1>All Articles</h1>
             {allArticles}
         </div>
     )

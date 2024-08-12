@@ -8,6 +8,7 @@ const [articles, setArticles] = useState(mockData.articles)
 
   return (
     <div className="App">
+      <h1>News Reader</h1>
       <AllArticles articles={articles}/>
     </div>
   );
