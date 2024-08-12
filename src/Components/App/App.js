@@ -1,17 +1,17 @@
 import '../App/App.css'
-import mockData from'../../mock-data'
-import { useState, useEffect } from 'react'
-import AllArticles from '../AllArticles/AllArticles'
+import HomePage from '../HomePage/HomePage'
+import PageNotFound from '../PageNotFound/PageNotFound'
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
-const [articles, setArticles] = useState(mockData.articles)
-
   return (
     <div className="App">
-      <h1>News Reader</h1>
-      <AllArticles articles={articles}/>
+      <Routes>        
+        <Route path="/" element={<HomePage />} />
+        <Route path="*" element={<PageNotFound />} />       
+      </Routes>
     </div>
-  );
+  )
 }
 
 export default App;
