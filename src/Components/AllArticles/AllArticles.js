@@ -1,4 +1,5 @@
 import Article from "../Article/Article"
+import { v4 as uuidv4 } from 'uuid'
 
 function AllArticles({ articles }) {
     console.log("articles in AllArticles:", articles)
@@ -6,7 +7,7 @@ function AllArticles({ articles }) {
     const allArticles = articles.map(article => {
         return (
             <Article
-                // key={}
+                key={uuidv4()}
                 article={article}
             />
         )
