@@ -5,9 +5,9 @@
 // function HomePage() {
 //     const [articles, setArticles] = useState(mockData.articles)
 //     return (
-//         <div className="homepage">
+//         <div>
 //             <h1>News Reader</h1>
-            
+//         <h2><i>Science Section</i></h2>
 //         </div>
 //     )
 // }

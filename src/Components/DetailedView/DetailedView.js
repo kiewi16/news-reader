@@ -1,5 +1,6 @@
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import { format } from 'date-fns'
+import '../DetailedView/DetailedView.css'
 
 function DetailedView({ articles }) {
     const { publishedAt } = useParams()
@@ -8,10 +9,13 @@ function DetailedView({ articles }) {
         return article.publishedAt === publishedAt
     })
 
-    console.log("specificArticle:", specificArticle)
-
     return (
         <div className="detailed-view">
+            <div className="home-page-button-container">
+                <button className='home-page-button'>
+                    <Link to="/" style={{ textDecoration: 'none', color: 'black'}}>Home Page</Link>
+                </button>            
+            </div>
             <h2>{specificArticle.title}</h2>
             {specificArticle.urlToImage ? 
             <img
