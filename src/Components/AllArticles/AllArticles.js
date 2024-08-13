@@ -14,14 +14,18 @@ function AllArticles({ articles }) {
 
     return (
         <div className="articles-container">
+            <form className="search-form">
             <input
                 type="text"
                 className="search-input"
                 placeholder="search articles"
                 // value={}
             />
-            <h1>News Reader</h1>
-            <h2><i>Science Section</i></h2>
+            <button type="submit" className="search-button">SEARCH</button>
+            </form>
+
+            <h1 className="header">News Reader</h1>
+            <h2 className="section"><i>Science Section</i></h2>
             <div className="all-articles-container">
                 {allArticles}
             </div>
