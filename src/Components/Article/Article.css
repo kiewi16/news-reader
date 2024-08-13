@@ -1,10 +1,10 @@
 .article {
     box-sizing: border-box;
-    border: 2px solid black;
+    border: 1px solid black;
     text-align: center;
     border-radius: 5%;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .article-image,

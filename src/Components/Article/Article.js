@@ -18,7 +18,7 @@ function Article({ article }) {
                     src={placeholderImage}
                     alt="magnifying glass mafnifying newspaper text related to science and technology"
                     className="article-placeholder-image"
-                />
+                />              
             }
             </Link>
             <h3 className="article-title">{article.title}</h3>
