@@ -1,7 +1,6 @@
 import '../App/App.css'
 import mockData from '../../mock-data'
 import AllArticles from '../AllArticles/AllArticles'
-// import HomePage from '../HomePage/HomePage'
 import DetailedView from '../DetailedView/DetailedView'
 import PageNotFound from '../PageNotFound/PageNotFound'
 import { useState } from 'react'
@@ -12,8 +11,6 @@ function App() {
 
   return (
     <div className="App">
-      <h1>News Reader</h1>
-      <h2><i>Science Section</i></h2>
       <Routes>
         <Route path="/" element={<AllArticles articles={articles} />} />
         <Route path="/DetailedView/:publishedAt" element={<DetailedView articles={articles} />} />
