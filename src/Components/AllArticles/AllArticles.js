@@ -14,8 +14,12 @@ function AllArticles({ articles }) {
 
     return (
         <div className="articles-container">
-            <input>
-            </input>
+            <input
+                type="text"
+                className="search-input"
+                placeholder="search articles"
+                // value={}
+            />
             <h1>News Reader</h1>
             <h2><i>Science Section</i></h2>
             <div className="all-articles-container">

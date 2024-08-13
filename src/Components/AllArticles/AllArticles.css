@@ -1,3 +1,18 @@
+.articles-container {
+  position: relative;
+}
+
+.search-input {
+  background-image: url('../../Images/search-icon.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 30px;
+  background-size: 15px;
+  position: absolute;
+  right: 20px;
+  width: 175px;
+}
+
 .all-articles-container {
     padding: 20px;
     display: grid;
