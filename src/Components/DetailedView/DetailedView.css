@@ -1,0 +1,16 @@
+.home-page-button-container {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.home-page-button {
+    padding: 7px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.detailed-view-image,
+.detailed-view-placeholder-image {
+    width: 600px;
+}
