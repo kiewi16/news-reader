@@ -2,12 +2,15 @@ import { useParams } from 'react-router-dom'
 import { format } from 'date-fns'
 
 function DetailedView({ articles }) {
-    const { title } = useParams()
+    const { publishedAt } = useParams()
+    console.log("DetailedView publishedAt:", publishedAt)
+
     const specificArticle = articles.find(article => {
-        return article.title === title
+        return article.publishedAt === publishedAt
     })
 
     console.log("specificArticle:", specificArticle)
+
     return (
         <div className="detailed-view">
             <h2>{specificArticle.title}</h2>

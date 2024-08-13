@@ -3,12 +3,10 @@ import placeholderImage from '../../Images/article-placeholder-image.jpg'
 import { Link } from 'react-router-dom'
 import { format } from 'date-fns'
 
-function Article({ article, index }) {
-    console.log("index:", index)
-
+function Article({ article }) {
     return (
         <div className="article">
-            <Link to={`/DetailedView/${article.title}`}>
+            <Link to={`/DetailedView/${article.publishedAt}`}>
             {article.urlToImage ? 
                 <img
                     src={article.urlToImage}

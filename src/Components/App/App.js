@@ -1,5 +1,4 @@
 import '../App/App.css'
-
 import mockData from '../../mock-data'
 import AllArticles from '../AllArticles/AllArticles'
 // import HomePage from '../HomePage/HomePage'
@@ -16,7 +15,7 @@ function App() {
       <h1>News Reader</h1>
       <Routes>
         <Route path="/" element={<AllArticles articles={articles} />} />
-        <Route path="/DetailedView/:title" element={<DetailedView articles={articles} />} />
+        <Route path="/DetailedView/:publishedAt" element={<DetailedView articles={articles} />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </div>
