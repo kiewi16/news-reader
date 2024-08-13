@@ -66,6 +66,19 @@ const mockData = {
             "urlToImage": "https://i.insider.com/669ab7a049138fa6f6e3fa9b?width=1200&format=jpeg",
             "publishedAt": "2024-07-19T20:23:20Z",
             "content": "The \"Twisters\" movie is full of references to tornado science.Universal Pictures, Warner Bros. Pictures & Amblin Entertainment\r\n<ul><li>'Twisters' aims to be more scientifically accurate than its pre… [+7289 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNET"
+            },
+            "author": "David Watsky",
+            "title": "Washing Raw Chicken Before Cooking Is a Bad Idea. Here's Why",
+            "description": "Habitual chicken rinsers may be shocked to learn what the science behind washing raw meat says.",
+            "url": "https://www.cnet.com/home/kitchen-and-household/washing-raw-chicken-before-cooking-it-is-a-bad-idea-heres-why/",
+            "urlToImage": "https://www.cnet.com/a/img/resize/9809cbf910878470d16b74b37843793b8641e797/hub/2024/07/24/70488630-e8d6-4d8e-a142-3d199305e635/gettyimages-1216035936-1.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "publishedAt": "2024-07-25T12:07:00Z",
+            "content": "If you're laboring over a package of fresh chicken, wondering if you should wash it or not, the science is pretty clear. While raw chicken can cause food-borne illness, particularly cold E coli if co… [+3231 chars]"
         }
     ]
 }
