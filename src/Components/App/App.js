@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <h1>News Reader</h1>
+      <h2><i>Science Section</i></h2>
       <Routes>
         <Route path="/" element={<AllArticles articles={articles} />} />
         <Route path="/DetailedView/:publishedAt" element={<DetailedView articles={articles} />} />

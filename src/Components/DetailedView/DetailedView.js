@@ -3,8 +3,7 @@ import { format } from 'date-fns'
 
 function DetailedView({ articles }) {
     const { publishedAt } = useParams()
-    console.log("DetailedView publishedAt:", publishedAt)
-
+   
     const specificArticle = articles.find(article => {
         return article.publishedAt === publishedAt
     })
@@ -18,11 +17,14 @@ function DetailedView({ articles }) {
             <img
                 src={specificArticle.urlToImage}
                 alt={specificArticle.title}
+                className="detailed-view-image"
             />
             : null }
+            <p className="source"><i>{specificArticle.source.name}</i></p>
             {specificArticle.author ? <p><strong>By:</strong> {specificArticle.author}</p> : null}
-            <p>Date: {format(new Date(specificArticle.publishedAt), 'MM-dd-yy')}</p>
+            <p><strong>Date:</strong> {format(new Date(specificArticle.publishedAt), 'MM-dd-yy')}</p>
             <p>{specificArticle.content}</p>
+            <a href={specificArticle.url}>Click Here to Read More</a>
         </div>
     )
 }
