@@ -24,7 +24,7 @@ const mockData = {
             "title": "What does science tell us about boxing’s gender row?",
             "description": "Research is shedding light on different chromosomal make-ups and what advantages they may bring to sport.",
             "url": "https://www.bbc.com/news/articles/crlr8gp813ko",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7bfc/live/dc3fca20-5599-11ef-8f0f-0577398c3339.png",
+            "urlToImage": null,
             "publishedAt": "2024-08-09T00:43:12Z",
             "content": "Images of the Algerian boxer Imane Khelif and Taiwans Lin Yu-ting on the medal podium in Paris will go down as some of the most unforgettable of the 2024 Olympics.\r\nA frenzied debate has raged over t… [+11940 chars]"
         },

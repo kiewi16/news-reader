@@ -1,5 +1,5 @@
 import '../Article/Article.css'
-import DetailedView from '../DetailedView/DetailedView'
+import placeholderImage from '../../Images/article-placeholder-image.jpg'
 import { Link } from 'react-router-dom'
 import { format } from 'date-fns'
 
@@ -9,11 +9,19 @@ function Article({ article, index }) {
     return (
         <div className="article">
             <Link to={`/DetailedView/${article.title}`}>
+            {article.urlToImage ? 
                 <img
                     src={article.urlToImage}
                     alt={article.title}
                     className="article-image"
                 />
+            :
+                <img
+                    src={placeholderImage}
+                    alt="magnifying glass mafnifying newspaper text related to science and technology"
+                    className="article-placeholder-image"
+                />
+            }
             </Link>
             <h3 className="article-title">{article.title}</h3>
             {article.description ? <p className="article-description">{article.description}</p> : null}
