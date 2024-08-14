@@ -7,6 +7,8 @@ function AllArticles({ articles }) {
     const [searchValue, setSearchValue] = useState('')
     const [isSearchClicked, setIsSearchClicked] = useState(false)
 
+    // console.log("isSearchClicked", isSearchClicked)
+
     const allArticles = articles.map(article => {
         return (
             <Article
@@ -49,7 +51,8 @@ function AllArticles({ articles }) {
             <h2 className="section"><i>Science Section</i></h2>
             <div className="all-articles-container">
                 {!isSearchClicked ? allArticles : null}
-                {filteredArticles.length > 0 && isSearchClicked ? filteredArticles : <p className="no-results-message"><strong>No Results Returned</strong></p>}
+                {filteredArticles.length > 0 && isSearchClicked ? filteredArticles : null}
+                {filteredArticles.length === 0 && isSearchClicked ? <p className="no-results-message"><strong>No Results Returned</strong></p> : null}
             </div>
         </div>
     )
