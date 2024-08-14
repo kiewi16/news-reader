@@ -45,5 +45,13 @@
 .header,
 .section {
   margin-top: 2px;
-  margin-bottom: 0px;
+  margin-bottom: 0px; 
+}
+
+.no-results-message {
+  grid-column: span 3;
+  text-align: center;
+  width: 100%; 
+  color: red;
+  font-size: 22px;
 }
