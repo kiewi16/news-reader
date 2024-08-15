@@ -21,7 +21,9 @@
   font-size: 15px;
 }
 
-.search-button {
+.search-button,
+.back-to-all-articles-button,
+.clear-search-results-button {
   padding: 8px 16px;
   border: none;
   background-color: #007bff;
@@ -31,7 +33,9 @@
   font-size: 14px;
 }
 
-.search-button:hover {
+.search-button:hover,
+.back-to-all-articles-button:hover,
+.clear-search-results-button:hover {
   background-color: #0056b3;
 }
 
@@ -54,4 +58,12 @@
   width: 100%; 
   color: red;
   font-size: 22px;
+}
+
+.back-to-all-articles-button,
+.clear-search-results-button {
+  grid-column: span 3;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
 }

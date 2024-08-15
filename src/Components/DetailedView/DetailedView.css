@@ -4,10 +4,16 @@
 }
 
 .home-page-button {
-    padding: 7px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    border-radius: 4px;
+    cursor: pointer;
     font-size: 14px;
-    border-radius: 5px;
-    background-color: lightgray;
+}
+
+.home-page-button:hover {
+    background-color: #0056b3;
 }
 
 .detailed-view-image,
