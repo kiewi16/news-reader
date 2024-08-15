@@ -14,7 +14,7 @@ function DetailedView({ articles }) {
         <div className="detailed-view">
             <div className="home-page-button-container">
                 <button className='home-page-button'>
-                    <Link to="/" style={{ textDecoration: 'none', color: 'black' }}>Home Page</Link>
+                    <Link to="/" style={{ textDecoration: 'none', color: 'white' }}>Home Page</Link>
                 </button>
             </div>
             <h2>{specificArticle.title}</h2>

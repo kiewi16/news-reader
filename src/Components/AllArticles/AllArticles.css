@@ -22,7 +22,8 @@
 }
 
 .search-button,
-.back-to-all-articles {
+.back-to-all-articles-button,
+.clear-search-results-button {
   padding: 8px 16px;
   border: none;
   background-color: #007bff;
@@ -33,7 +34,8 @@
 }
 
 .search-button:hover,
-.back-to-all-articles:hover {
+.back-to-all-articles-button:hover,
+.clear-search-results-button:hover {
   background-color: #0056b3;
 }
 
@@ -58,7 +60,8 @@
   font-size: 22px;
 }
 
-.back-to-all-articles {
+.back-to-all-articles-button,
+.clear-search-results-button {
   grid-column: span 3;
   text-align: center;
   align-items: center;
