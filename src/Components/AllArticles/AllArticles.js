@@ -54,21 +54,22 @@ function AllArticles({ articles }) {
     return (
         <div className="articles-container">
             <form className="search-form">
+                {(filteredArticles.length === 0 && !noResultsMessage) &&
                 <input
                     type="text"
                     className="search-input"
                     placeholder="search articles"
                     value={searchValue}
                     onChange={(event) => setSearchValue(event.target.value)}
-                />
-                <button type="submit" className="search-button" onClick={handleSearch}>SEARCH</button>
+                />}
+                {(filteredArticles.length === 0 && !noResultsMessage) && <button type="submit" className="search-button" onClick={handleSearch}>SEARCH</button>}
             </form>
             <h1 className="header">News Reader</h1>
             <h2 className="section"><i>Science Section</i></h2>
             <div className="all-articles-container">
                 {(filteredArticles.length === 0 && !noResultsMessage) && allArticles}
-                {filteredArticles.length > 0 && filteredArticles}
                 {clearResults && <button className="clear-search-results-button" onClick={handleClearResults}>Clear Search Results</button>}
+                {filteredArticles.length > 0 && filteredArticles}
                 {noResultsMessage && <p className="no-results-message"><strong>No results returned for {searchValue}</strong></p>}
                 {noResultsMessage && <button className="back-to-all-articles-button" onClick={handleBackToAllArticles}>Back to All Articles</button>}
             </div>
