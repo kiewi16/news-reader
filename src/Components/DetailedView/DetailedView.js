@@ -34,7 +34,7 @@ function DetailedView({ articles }) {
             <p className="source"><i>{specificArticle.source.name}</i></p>
             {specificArticle.author ? <p><strong>By:</strong> {specificArticle.author}</p> : null}
             <p><strong>Date:</strong> {format(new Date(specificArticle.publishedAt), 'MM-dd-yy')}</p>
-            <p>{specificArticle.content}</p>
+            <p className="content">{specificArticle.content}</p>
             <a href={specificArticle.url}>Click Here to Read More</a>
         </div>
     )
