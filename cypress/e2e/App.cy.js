@@ -18,8 +18,8 @@ describe('App', () => {
     cy.get('.article, .article-date').first().should('contain', "Date: 07-22-24")
   })
 
-  it('should get a detailed view for an article when the image is clicked', () => {
-    cy.get(':nth-child(1) > a > .article-image').click()
+  it('should get a detailed view for an article when the article headline is clicked', () => {
+    cy.get(':nth-child(1) > a > .article-title').click()
     cy.get('.home-page-button').should('contain', 'Home Page')
     cy.get('h2').should('contain', "Is the ‘Diaper’ Method in 'Twisters' a Real Solution For Massive Tornadoes? Not Exactly")
     cy.get('.detailed-view-image').should('be.visible')
@@ -31,7 +31,7 @@ describe('App', () => {
   })
 
   it('should navigate to the home page when the home page button is clicked from the detailed view', () => {
-    cy.get(':nth-child(1) > a > .article-image').click()
+    cy.get(':nth-child(1) > a > .article-title').click()
     cy.url().should('contain', 'DetailedView/2024-07-22T14:13:12Z')
     cy.get('.home-page-button').click()
     cy.url().should('contain', 'localhost:3000/')
