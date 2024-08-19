@@ -66,9 +66,9 @@ function AllArticles({ articles }) {
             </form>
             <h1 className="header">News Reader</h1>
             <h2 className="section"><i>Science Section</i></h2>
+            {clearResults && <button className="clear-search-results-button" onClick={handleClearResults}>Clear Search Results</button>}
             <div className="all-articles-container">
                 {(filteredArticles.length === 0 && !noResultsMessage) && allArticles}
-                {clearResults && <button className="clear-search-results-button" onClick={handleClearResults}>Clear Search Results</button>}
                 {filteredArticles.length > 0 && filteredArticles}
                 {noResultsMessage && <p className="no-results-message"><strong>No results returned for {searchValue}</strong></p>}
                 {noResultsMessage && <button className="back-to-all-articles-button" onClick={handleBackToAllArticles}>Back to All Articles</button>}
