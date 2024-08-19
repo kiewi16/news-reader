@@ -1,5 +1,4 @@
 import '../App/App.css'
-// import mockData from '../../mock-data'
 import getArticles from '../../apiCall'
 import AllArticles from '../AllArticles/AllArticles'
 import DetailedView from '../DetailedView/DetailedView'
@@ -12,7 +11,6 @@ function App() {
 
   useEffect(() => {
     getArticles()
-    // .then(data => console.log("data from API call:", data.articles))
     .then(data => setArticles([...articles, ...data.articles]))
     .catch(error => console.log(error))
   }, [])

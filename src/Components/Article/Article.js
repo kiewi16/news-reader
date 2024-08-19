@@ -5,8 +5,7 @@ import { format } from 'date-fns'
 
 function Article({ article }) {
     return (
-        <div className="article">
-            <Link to={`/DetailedView/${article.publishedAt}`}>
+        <div className="article">      
             {article.urlToImage ? 
                 <img
                     src={article.urlToImage}
@@ -20,10 +19,12 @@ function Article({ article }) {
                     className="article-placeholder-image"
                 />              
             }
-            </Link>
+            <Link to={`/DetailedView/${article.publishedAt}`}>
             <h3 className="article-title">{article.title}</h3>
+            </Link>
             {article.description ? <p className="article-description">{article.description}</p> : null}
             <p className="article-date"><strong>Date: </strong>{format(new Date(article.publishedAt), 'MM-dd-yy')}</p>
+            
         </div>
     )
 }
