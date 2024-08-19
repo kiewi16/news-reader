@@ -1,5 +1,5 @@
 # News Reader
-News Reader is a React application that allows users to see science-related articles from the News API. Usrs can click on the image of an article to see more details for the article. Additionally, users can search to see if their search criteria is present in the article title or description. 
+News Reader is a React application that allows users to see science-related articles from the News API. Users can click on the headline of an article to see more details for the article. Additionally, users can search to see if their search criteria is present in the article title or description. 
 
 ## Technologies Used
 - React
